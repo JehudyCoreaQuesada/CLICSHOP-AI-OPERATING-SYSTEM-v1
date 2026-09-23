@@ -4,7 +4,7 @@
 
 | ID | Proyecto | Fase | Siguiente acción | Actualizado |
 |---|---|---|---|---|
-| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Ejecución | Jehudy: crear el repositorio vacío y dar acceso a Claude | 2026-09-22 |
+| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Ejecución | Jehudy: configurar el proyecto en ChatGPT con `instrucciones/CHATGPT.md` | 2026-09-22 |
 
 ## Candidatos a registrar (estado por confirmar con Jehudy)
 
