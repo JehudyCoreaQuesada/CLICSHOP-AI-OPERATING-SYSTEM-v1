@@ -2,6 +2,13 @@
 
 Versión 1.0 · Vigente desde 2026-09-22 · Aprobado por: Jehudy
 
+**Adenda de alcance, 2026-09-23:** Jehudy solicitó incorporar Google Jules al
+desarrollo de Clicshop. Para encargos dirigidos a Jules se aplica el
+[flujo documentado de integración](../../docs/JULES.md), con trabajo aislado y
+revisión de resultados. La regla histórica de escritor único de este documento
+describe el flujo manual ChatGPT–Claude; no impide la integración local solicitada
+ni los encargos expresamente asignados a Jules. Véase D-003 de P-001.
+
 ## 1. Roles
 
 | Actor | Función | Acceso a este repositorio |

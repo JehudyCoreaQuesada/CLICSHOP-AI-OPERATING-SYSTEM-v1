@@ -1,51 +1,25 @@
 # P-001 · Sistema de continuidad multi-IA — ESTADO
 
-**Actualizado:** 2026-09-22 · **Por:** Claude · **Fase:** Ejecución
+**Actualizado:** 2026-09-23 · **Por:** Codex · **Fase:** Integración y verificación
 
 ## Objetivo
-Que Jehudy, ChatGPT y Claude trabajen sobre el mismo contexto de proyecto sin que se pierda entre sesiones ni entre herramientas.
+Que Jehudy, ChatGPT, Codex, Claude y Jules compartan contexto verificable sin duplicar decisiones ni sobrescribir cambios.
 
-## Criterio de éxito
-1. ChatGPT puede leer `INDICE.md` y un `ESTADO.md` de este repositorio, o recibe el mismo contexto mediante un RELEVO pegado.
-2. Claude retoma un proyecto en una sesión nueva leyendo solo el repositorio, sin que Jehudy repita el contexto.
-3. Se completa un ciclo real ENCARGO → revisión → ejecución → RELEVO en un proyecto de negocio.
+## Fuente de verdad
+- Repositorio: `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`.
+- Continuidad: `continuidad-proyectos-ia/continuidad/`.
+- Para cambios en revisión, usar la rama y commit indicados en el relevo; `main` conserva la versión incorporada.
 
-## Restricciones
-- No hay integración directa entre ChatGPT y Claude. Jehudy transporta los bloques de texto.
-- En el chat normal, el conector de GitHub de ChatGPT es solo de lectura, y su disponibilidad depende del plan.
-- La herramienta de Google Drive de Claude crea y lee archivos, pero no edita el contenido de uno existente.
-
-## Situación actual
-- Protocolo, plantillas, índice e instrucciones redactados. **Implementado.**
-- Repositorio privado en GitHub. **Pendiente:** la integración de Claude no tiene permiso para crear repositorios (error 403). Jehudy lo crea y Claude sube el contenido.
-- Instrucciones para el proyecto de ChatGPT. **Implementado.** Falta que Jehudy las pegue.
-- Skill de continuidad para Claude. **Propuesto.** Falta que Jehudy la guarde.
-- Lectura del repositorio desde ChatGPT. **Sin verificar.**
-
-## Decisiones vigentes
-- D-001: GitHub privado como fuente única de verdad, con Claude como único escritor.
-- D-002: Puerta de revisión obligatoria para los encargos que vienen de ChatGPT.
+## Situación verificada
+- El repositorio existe; `main` remoto coincide con `b958d48` al iniciar esta corrección. Queda superado el bloqueo histórico de crear un repositorio separado.
+- Jules: autenticación y lectura verificadas, credencial cifrada fuera del repositorio y 28 comprobaciones locales satisfactorias. Ejecución de un encargo real pendiente.
+- Instrucciones, plantilla RELEVO y rutas corregidas. D-003 conserva la incorporación de Jules; D-004 documenta la corrección del repositorio.
+- GitHub mostró la app `Claude Github MCP Connector` autorizada, pero sin instalación en ninguna cuenta al diagnosticar. La app `Claude` de Claude Code es distinta. No se confirmó una causa genérica de «solo lectura».
 
 ## Pendientes
-- [ ] Crear en GitHub el repositorio privado vacío `continuidad-proyectos-ia` y darle acceso a la app de Claude — Jehudy
-- [ ] Subir el contenido y verificar lectura y escritura — Claude
-- [ ] Crear un proyecto en ChatGPT y pegar `instrucciones/CHATGPT.md` — Jehudy
-- [ ] Conectar GitHub en ChatGPT y autorizar este repositorio — Jehudy
-- [ ] Guardar la skill «continuidad-proyectos» en Claude — Jehudy
-- [ ] Prueba: preguntarle a ChatGPT «¿cuál es la siguiente acción de P-001?» — Jehudy
-- [ ] Confirmar qué candidatos del índice siguen activos — Jehudy
+- Completar instalación del conector MCP sobre Clicshop y verificar escritura/lectura desde Claude.
+- Publicar y revisar el conjunto preparado de integración y continuidad; combinar cualquier diferencia del borrador de Claude antes de incorporar a `main`.
+- Completar un ciclo real de encargo y relevo. No iniciar trabajo sobre los mismos archivos con varios agentes.
 
-## Bloqueos
-- Sin repositorio no hay escritura. Solución: Jehudy crea el repositorio vacío (1 min). Responsable: Jehudy.
-
-## Riesgos
-- **El conector de GitHub no está disponible en el chat del plan de ChatGPT.** Mitigación: usar el RELEVO pegado. El protocolo funciona igual.
-- **Se sube información sensible por error.** Mitigación: regla del PROTOCOLO §6 y repositorio privado.
-- **El protocolo se abandona porque cuesta mantenerlo.** Mitigación: Claude hace toda la escritura y a Jehudy solo le toca pegar bloques.
-
-## Siguiente acción
-**Quién:** Jehudy · **Qué:** crear el repositorio y avisar a Claude. Luego, configurar ChatGPT (15 min).
-
-## Entregables y enlaces
-- Repositorio: github.com/JehudyCoreaQuesada/continuidad-proyectos-ia (privado)
-- Instrucciones de ChatGPT: `instrucciones/CHATGPT.md`
+## Referencias
+[Decisiones](DECISIONES.md) · [Jules](../../../../docs/JULES.md) · [Relevo a Claude](../../../../docs/RELEVO_CLAUDE.md)

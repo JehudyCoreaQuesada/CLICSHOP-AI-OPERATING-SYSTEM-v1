@@ -1,11 +1,12 @@
 ---
 name: continuidad-proyectos
-description: Retomar, registrar o cerrar proyectos de Jehudy/Clicshop usando el repositorio GitHub continuidad-proyectos-ia; usar al retomar un proyecto P-XXX, recibir un ENCARGO de ChatGPT o cerrar una sesión de trabajo.
+description: Retomar, registrar o cerrar proyectos de Jehudy/Clicshop usando el repositorio GitHub CLICSHOP-AI-OPERATING-SYSTEM-v1; usar al retomar un proyecto P-XXX, recibir un ENCARGO de ChatGPT o cerrar una sesión de trabajo.
 ---
 
-# Continuidad de proyectos (Claude = ejecutor y único escritor)
+# Continuidad de proyectos (Claude = ejecutor técnico)
 
-Repositorio: `JehudyCoreaQuesada/continuidad-proyectos-ia` (privado, rama `main`). Se accede con las herramientas MCP de GitHub (`get_file_contents`, `push_files`).
+Repositorio: `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1` (rama principal `main`). Carpeta de continuidad: `continuidad-proyectos-ia/continuidad/`. Todas las rutas siguientes son relativas a esa carpeta. Lee primero la rama que indique el encargo si contiene cambios pendientes de incorporar a `main`.
+Se accede mediante el conector GitHub configurado. La lectura no demuestra escritura: verificar acceso del conector antes de prometer una publicación. Para una GitHub App, la autorización de identidad y la instalación sobre el repositorio son pasos diferentes.
 Reglas completas: `PROTOCOLO.md`. Si esta skill y el protocolo no coinciden, prevalece el protocolo.
 
 ## Al iniciar o retomar
@@ -26,7 +27,7 @@ Toma el siguiente ID libre del índice. Crea la carpeta `proyectos/P-XXX-nombre-
 1. Reescribe `ESTADO.md`. Debe caber en una pantalla. Marca cada punto como Propuesto, Implementado, Verificado (con su evidencia) o Aprobado.
 2. Agrega a `DECISIONES.md` las decisiones nuevas. Solo agregar; nunca borrar.
 3. Actualiza la fila del proyecto en `INDICE.md`.
-4. Haz un solo commit con `push_files` y el mensaje `[P-XXX] resumen`. Después lee de vuelta un archivo para comprobar que el commit quedó.
+4. Revisa primero los cambios remotos y coordina archivos con Codex/Jules. Publica el encargo autorizado en una rama de trabajo con mensaje `[P-XXX] resumen`; evita reemplazar archivos completos desde un borrador anterior. Lee de vuelta un archivo para comprobar la publicación. Si la escritura falla, entrega el parche o los archivos y registra la operación, ruta y error sin credenciales. No repitas escrituras a ciegas ni declares permisos confirmados a partir de un 404.
 5. Entrega a Jehudy el bloque `=== RELEVO ===` (formato en `plantillas/RELEVO.md`) listo para pegar en ChatGPT.
 
 ## Prohibido en el repositorio
