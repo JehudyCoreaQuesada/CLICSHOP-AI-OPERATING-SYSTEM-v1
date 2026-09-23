@@ -1,10 +1,10 @@
 # Índice de proyectos
 
-**Actualizado:** 2026-09-23 · **Por:** Codex
+**Actualizado:** 2026-09-23 · **Por:** Claude
 
 | ID | Proyecto | Fase | Siguiente acción | Actualizado |
 |---|---|---|---|---|
-| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Integración y verificación | Completar acceso del conector Claude y revisar los cambios coordinados de Jules | 2026-09-23 |
+| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Ejecución | Jehudy: definir el encargo operativo de Jules y el rol de Antigravity en el protocolo | 2026-09-23 |
 
 ## Candidatos a registrar (estado por confirmar con Jehudy)
 
