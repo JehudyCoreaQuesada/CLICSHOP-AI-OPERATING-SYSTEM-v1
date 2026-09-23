@@ -5,10 +5,12 @@ Si una IA cambia, se lleva este bloque y nada más.
 
 ```
 === RELEVO ===
-De: Claude | ChatGPT → Para: ChatGPT | Claude
+De: Claude | ChatGPT | Codex | Jules → Para: ChatGPT | Claude | Codex | Jules
 Proyecto: P-XXX · Nombre · Fase
 Fecha: AAAA-MM-DD
-Repositorio: github.com/JehudyCoreaQuesada/continuidad-proyectos-ia (proyectos/P-XXX-…/ESTADO.md)
+Repositorio: github.com/JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1
+Rama y commit revisados: …
+Estado: continuidad-proyectos-ia/continuidad/proyectos/P-XXX-…/ESTADO.md
 
 Qué cambió en esta sesión:
 - … (Propuesto / Implementado / Verificado + evidencia)

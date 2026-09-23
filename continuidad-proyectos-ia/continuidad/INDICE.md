@@ -1,10 +1,10 @@
 # Índice de proyectos
 
-**Actualizado:** 2026-09-22 · **Por:** Claude
+**Actualizado:** 2026-09-23 · **Por:** Codex
 
 | ID | Proyecto | Fase | Siguiente acción | Actualizado |
 |---|---|---|---|---|
-| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Ejecución | Jehudy: crear el repositorio vacío y dar acceso a Claude | 2026-09-22 |
+| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Integración y verificación | Completar acceso del conector Claude y revisar los cambios coordinados de Jules | 2026-09-23 |
 
 ## Candidatos a registrar (estado por confirmar con Jehudy)
 
