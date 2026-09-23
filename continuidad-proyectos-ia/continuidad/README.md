@@ -4,9 +4,9 @@ Fuente única de verdad de los proyectos que Jehudy desarrolla con ChatGPT y Cla
 Ninguna IA recuerda por sí sola lo que hizo la otra: **lo que no está aquí, no existe para el equipo.**
 
 **Actualización 2026-09-23:** esta carpeta forma parte de
-`JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`. D-003 incorpora Codex y Jules
-en encargos autorizados; las menciones a Claude como único escritor abajo describen
-el flujo manual original. Consultar el [protocolo vigente](PROTOCOLO.md) y el
+`JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`. Codex preparó el PR #1 como
+propuesta para revisión de Claude; eso no lo designa escritor permanente.
+D-001 y el protocolo de escritor único se conservan. Consultar el [protocolo vigente](PROTOCOLO.md) y el
 [relevo de coordinación](../../docs/RELEVO_CLAUDE.md) antes de publicar cambios.
 
 ## Cómo se usa (Jehudy)

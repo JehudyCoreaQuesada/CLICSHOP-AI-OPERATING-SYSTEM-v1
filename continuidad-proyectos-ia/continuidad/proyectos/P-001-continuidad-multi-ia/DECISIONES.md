@@ -25,14 +25,14 @@ Solo se agregan entradas. Una decisión no se borra: se marca como reemplazada.
 - **Alternativas descartadas:** ejecutar directamente, porque obliga a rehacer trabajo cuando el encargo es ambiguo.
 - **Consecuencias:** suma un paso breve a cada encargo y reduce el retrabajo.
 
-## D-003 · Incorporar Jules al desarrollo de Clicshop
+## D-003 · Propuesta técnica de integración de Jules; sin cambio de escritor
 - **Fecha:** 2026-09-23
-- **Estado:** Vigente para la incorporación; implementación verificada y preparada en la rama de revisión `codex/jules-claude-continuidad`, pendiente de incorporar a `main`.
-- **Decidió:** Jehudy, mediante solicitud expresa de integrar Jules al desarrollo del proyecto.
-- **Decisión:** habilitar un cliente de la API de Jules para el repositorio `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`.
-- **Aplicación:** Codex prepara la integración y los encargos; Jules realiza tareas acotadas en sesiones aisladas; Codex o Claude revisa sus resultados. La exclusividad de escritura de D-001 queda acotada al flujo manual anterior; D-002 mantiene la revisión de objetivos, alcance y aceptación, aplicada también al responsable del encargo a Jules.
+- **Estado:** Propuesta en PR #1, pendiente de revisión e incorporación. Esta redacción corrige el borrador inicial de Codex, que presentaba una ampliación de roles como vigente sin decisión expresa de Jehudy.
+- **Solicitud recibida:** Jehudy pidió conectar e integrar Jules al desarrollo; no estableció aquí a Codex como escritor permanente.
+- **Propuesta de Codex:** cliente de la API de Jules configurado para `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`, con autenticación y consultas verificadas. No se inició ninguna sesión remota de trabajo.
+- **Gobernanza vigente:** D-001 y D-002 se conservan. Codex es autor de esta propuesta puntual para que Claude la revise; no se concede escritura permanente a Codex ni a Jules. La adenda que limitaba la exclusividad de Claude al flujo histórico fue retirada del PR.
 - **Detalles de implementación:** credencial cifrada por Windows fuera del repositorio; planes revisables por defecto; ejecución directa y PR automático disponibles mediante opciones explícitas. Estos detalles son elecciones técnicas de Codex, no decisiones adicionales atribuidas a Jehudy.
-- **Consecuencias:** Jules trabaja sobre ramas remotas y no recibe automáticamente los archivos locales. No se autoriza por esta decisión un merge, despliegue ni una primera tarea de producto no definida.
+- **Pendiente:** definir el destino operativo de Jules y sus límites antes de ejecutar encargos, considerando el acuerdo sin acceso a este repositorio reportado por Claude. La capacidad técnica del cliente no sustituye esa autorización. No se autoriza por esta entrada merge ni despliegue.
 
 ## D-004 · Corregir la identidad y las rutas del repositorio
 - **Fecha:** 2026-09-23

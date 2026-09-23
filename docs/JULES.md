@@ -18,6 +18,12 @@ encargos ni capturas. La credencial cifrada no es portable a otro usuario/equipo
 
 ## Uso
 
+Estas opciones describen capacidades del cliente, no permisos permanentes del
+equipo. Hasta definir el alcance operativo de Jules, usar Status, List o DryRun;
+la creación de tareas, aprobación de planes y publicación de PR requieren un
+encargo que autorice expresamente su destino y alcance. No se ha iniciado ninguna
+sesión remota de Jules durante esta integración.
+
 ```powershell
 # Verificar acceso y listar solo tareas de Clicshop
 ./scripts/jules.ps1 -Action Status
@@ -48,20 +54,23 @@ No se reintentan escrituras automáticamente: ante un fallo de red posterior a
 Create, revisar List antes de crear otra sesión para evitar encargos duplicados.
 La consulta es manual; esta integración no instala tareas programadas.
 
-## Flujo de equipo
+## Alcance de la propuesta y roles vigentes
 
-1. Jehudy define la prioridad; Codex prepara un encargo verificable.
-2. Codex comprueba que los insumos están publicados en la rama remota elegida.
-3. Jules recibe el encargo y el contexto de `docs/JULES_CONTEXT.md` mediante la API.
-4. Se revisa el plan; Codex puede aprobarlo dentro del alcance ya autorizado.
-5. Jules implementa y comprueba. Codex o Claude revisa el resultado y las pruebas.
-6. Se actualiza la continuidad y se incorpora el cambio mediante el flujo de Git
-   acordado. No se editan los mismos archivos simultáneamente con varios agentes.
+Codex preparó esta integración técnica y el PR #1 como una propuesta puntual para
+revisión de Claude. Esto no designa a Codex como escritor permanente. D-001 y el
+protocolo de escritor único se conservan; la adenda que los restringía al flujo
+histórico fue retirada de la propuesta tras la revisión de Claude.
 
-El protocolo histórico de continuidad describía a Claude como único escritor.
-La solicitud de Jehudy del 2026-09-23 incorpora Jules para encargos dirigidos a él
-y autoriza esta integración local. No cambia los permisos del conector de ChatGPT
-ni autoriza por sí misma despliegues, merges o una reestructuración del producto.
+La petición de integrar Jules no define por sí sola quién puede publicar, aprobar
+planes o incorporar cambios en `main`. El encargo operativo deberá fijar esos
+límites antes de ejecutar tareas. El reporte de Claude menciona un acuerdo de
+trabajo de Jules sin acceso a este repositorio: no se interpreta como permiso
+para usar las capacidades de escritura del cliente. El acceso técnico existente
+y los permisos organizativos son cuestiones separadas; este PR no modifica la
+instalación de Jules ni revoca permisos de GitHub.
+
+Claude revisará el resultado y aplicará las decisiones que Jehudy apruebe. No hay
+autorización implícita de merge, despliegue ni ampliación permanente de roles.
 
 La configuración local no instala un plugin de Codex ni publica estos archivos
 en GitHub. Jules no ve cambios locales no publicados salvo el contexto y el

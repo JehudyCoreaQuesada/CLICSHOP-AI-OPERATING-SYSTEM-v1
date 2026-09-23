@@ -3,11 +3,12 @@ name: continuidad-proyectos
 description: Retomar, registrar o cerrar proyectos de Jehudy/Clicshop usando el repositorio GitHub CLICSHOP-AI-OPERATING-SYSTEM-v1; usar al retomar un proyecto P-XXX, recibir un ENCARGO de ChatGPT o cerrar una sesión de trabajo.
 ---
 
-# Continuidad de proyectos (Claude = ejecutor técnico)
+# Continuidad de proyectos (Claude = ejecutor y único escritor según D-001)
 
 Repositorio: `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1` (rama principal `main`). Carpeta de continuidad: `continuidad-proyectos-ia/continuidad/`. Todas las rutas siguientes son relativas a esa carpeta. Lee primero la rama que indique el encargo si contiene cambios pendientes de incorporar a `main`.
 Se accede mediante el conector GitHub configurado. La lectura no demuestra escritura: verificar acceso del conector antes de prometer una publicación. Para una GitHub App, la autorización de identidad y la instalación sobre el repositorio son pasos diferentes.
 Reglas completas: `PROTOCOLO.md`. Si esta skill y el protocolo no coinciden, prevalece el protocolo.
+El PR #1 preparado por Codex es una propuesta puntual para revisión. No concede a Codex ni a Jules un rol permanente de escritura ni reemplaza D-001. Los cambios futuros de roles requieren decisión expresa de Jehudy conforme al protocolo.
 
 ## Al iniciar o retomar
 1. Lee `INDICE.md`. Si el proyecto no se nombra y no se deduce del contexto, pregunta cuál es.

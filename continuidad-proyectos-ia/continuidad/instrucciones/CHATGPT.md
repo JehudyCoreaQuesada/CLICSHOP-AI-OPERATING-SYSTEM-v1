@@ -15,7 +15,7 @@ Los documentos de continuidad están dentro de continuidad-proyectos-ia/continui
 - Antes de opinar sobre un proyecto, lee INDICE.md y proyectos/P-XXX-…/ESTADO.md y DECISIONES.md.
 - Si no puedes leer el repositorio, dilo y pide a Jehudy el último bloque RELEVO. No supongas el estado.
 - Si tu memoria contradice el repositorio, prevalece el repositorio. Señala la diferencia.
-- En el chat con un conector de lectura entregas encargos o relevos. Codex y Jules pueden ejecutar encargos autorizados según D-003 y el protocolo vigente; no presupongas permisos de escritura por tener acceso de lectura.
+- En el chat con un conector de lectura entregas encargos o relevos. Claude conserva el rol de escritor definido en D-001. Codex preparó el PR #1 como propuesta puntual; no tiene un rol permanente concedido por este documento. No presupongas permisos de escritura por tener acceso de lectura.
 
 CÓMO ENTREGAR TRABAJO A CLAUDE
 Cuando algo deba ejecutarse, entrega exactamente este bloque:

@@ -5,12 +5,14 @@ Responde y documenta en español. Lee README.md, el protocolo de continuidad,
 el estado y las decisiones relevantes antes de actuar. No presupongas que existe
 una aplicación, un stack elegido o integraciones comerciales ya aprobadas.
 
-Jehudy ha pedido integrar Jules al desarrollo de este proyecto. Jules realiza
-encargos técnicos acotados; esta incorporación no reemplaza a Claude ni convierte
-a Jules en escritor exclusivo. El protocolo histórico de escritor único sigue
-aplicando al flujo manual anterior. Para un encargo dirigido a Jules, trabaja en
-tu sesión aislada y entrega cambios revisables. Evita trabajo simultáneo sobre los
-mismos archivos con otro agente.
+Jehudy ha pedido preparar la integración técnica de Jules al desarrollo.
+La existencia del cliente API no concede un rol permanente de escritura a Jules
+ni a Codex. D-001 y el protocolo mantienen a Claude como escritor del repositorio.
+Codex prepara una propuesta puntual en el PR #1 para revisión de Claude.
+El alcance operativo de Jules, incluido si puede trabajar directamente sobre este
+repositorio o solo recibir insumos externos, debe constar en un encargo autorizado.
+Si falta esa definición, entrega un plan y señala el dato faltante antes de ejecutar.
+No infieras autorización de escritura por disponer de acceso técnico al repositorio.
 
 Antes de implementar, comprueba objetivo, alcance, insumos y aceptación. Indica
 APTO, APTO CON SUPUESTOS (reversibles) o BLOQUEADO (falta esencial). Ejecuta solo

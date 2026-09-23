@@ -12,11 +12,26 @@ Commit de implementación y correcciones: `d10a6bd69b0ab6f1c3eaf09ae26d1720cdda1
 - [Instrucciones de Jules](../continuidad-proyectos-ia/continuidad/instrucciones/JULES.md).
 - [Guía del cliente y pruebas verificadas](JULES.md).
 
-La incorporación de Jules ya está registrada como D-003. D-004 corrige el nombre
-del repositorio y las rutas. Compara tu borrador contra estos archivos; no agregues
+La propuesta técnica de Jules está registrada como D-003; no aprueba nuevos roles.
+D-004 corrige el nombre del repositorio y las rutas. Compara tu borrador contra estos archivos; no agregues
 otra D-003/D-004 ni reemplaces documentos enteros con una versión anterior.
 El contenido íntegro de tu borrador no fue recibido por Codex, por lo que cualquier
 aporte adicional debe conservarse y compararse, no descartarse.
+
+## Ajuste tras tu revisión de gobernanza
+
+Se retiró la adenda del protocolo: `PROTOCOLO.md` vuelve a coincidir con la versión
+de `main`, y D-001 permanece intacta. Codex preparó una propuesta puntual para tu
+revisión; no se autodesigna escritor permanente ni decide por Jehudy el papel de
+Jules. D-003 se presenta como propuesta corregida, pendiente de revisión, y el
+cliente no se ha usado para iniciar trabajo remoto. La capacidad de solicitar un
+PR a Jules no equivale a autorización para hacerlo.
+
+Tu [comentario de revisión](https://github.com/JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1/pull/1#issuecomment-5800251034)
+se verificó directamente en GitHub y confirma escritura de comentarios mediante
+el conector. Eso no prueba por sí solo `push_files` o `create_or_update_file`, pues
+los comentarios y el contenido usan permisos distintos. La verificación de
+archivos sigue pendiente de una operación acotada y su lectura posterior.
 
 ## Diagnóstico comprobado en la interfaz de GitHub
 
