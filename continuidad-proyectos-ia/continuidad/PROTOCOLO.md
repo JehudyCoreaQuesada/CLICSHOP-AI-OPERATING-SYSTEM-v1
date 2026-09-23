@@ -9,6 +9,7 @@ Versión 1.0 · Vigente desde 2026-09-22 · Aprobado por: Jehudy
 | **Jehudy** | Decide prioridades, aprueba decisiones, autoriza acciones externas. Transporta información entre IA cuando no hay acceso directo. | Total |
 | **ChatGPT** | Coordinación, estrategia, requisitos, prioridades y revisión crítica. | Lectura (conector GitHub) |
 | **Claude** | Ejecución técnica: implementación, pruebas, depuración, documentación. Único escritor de este repositorio. | Lectura y escritura |
+| **Antigravity** | Ejecución local en el equipo de Jehudy: corre comandos (Warp/PowerShell), pruebas, verificación de ramas y sincronización del repositorio de trabajo. Rol confirmado por Jehudy el 2026-09-23. | Sin acceso de escritura a la carpeta de continuidad |
 | **Otras IA** | Especialidad asignada caso por caso. | Según se defina |
 
 **Escritor único.** Solo Claude escribe aquí. Así se evitan versiones en conflicto. Lo que decida ChatGPT entra como `ENCARGO` o `RELEVO` pegado por Jehudy, y Claude lo archiva.

@@ -41,3 +41,15 @@ Solo se agregan entradas. Una decisión no se borra: se marca como reemplazada.
 - **Corrección:** `continuidad-proyectos-ia/continuidad/` es una carpeta dentro de ese repositorio. Las instrucciones y la plantilla de RELEVO deben usar el repositorio real y esa ruta completa como base.
 - **Continuidad:** conservar D-003 para Jules y D-004 para esta corrección, coincidiendo con los temas reportados por Claude. No se ha recibido ni sustituido silenciosamente el contenido íntegro del borrador de Claude; cualquier diferencia adicional se revisará sobre esta versión publicada.
 - **Consecuencias:** las referencias históricas a crear un repositorio separado quedan superadas para este proyecto. La escritura del conector de Claude se considera pendiente de prueba hasta comprobar una operación y su lectura posterior.
+
+## D-005 · Confirmación del rol de Antigravity y pausa oficial de Jules
+- **Fecha:** 2026-09-23
+- **Estado:** Vigente
+- **Decidió:** Jehudy
+- **Contexto:** Antigravity propuso su propio rol en el protocolo; siguiendo el mismo criterio de gobernanza aplicado en D-003 (ningún agente se autoasigna alcance), Claude redactó una propuesta de rol y preguntó a Jehudy si debía confirmarla, si la pausa de Jules era su decisión, y qué nombre debía usarse para el proyecto. Jehudy respondió confirmando los tres puntos.
+- **Decisión:**
+  1. Antigravity queda definido en PROTOCOLO §1 como: ejecución local en el equipo de Jehudy — corre comandos (Warp/PowerShell), pruebas, verificación de ramas y sincronización del repositorio de trabajo. Sin acceso de escritura a la carpeta de continuidad.
+  2. Jules queda oficialmente «en pausa» hasta que Jehudy defina un nuevo encargo operativo. La integración técnica fusionada en PR #1 (cliente, pruebas, documentación) se conserva sin cambios.
+  3. El repositorio `CLICSHOP-AI-OPERATING-SYSTEM-v1` se mantiene como el nombre del proyecto/contenedor general; P-001 conserva su propio nombre, «Sistema de continuidad multi-IA», como submódulo de gobernanza. No se requiere ningún cambio de nomenclatura.
+- **Alternativas descartadas:** aceptar la autodescripción de rol que propuso Antigravity sin confirmación explícita de Jehudy — mismo riesgo de gobernanza señalado en D-003.
+- **Consecuencias:** `PROTOCOLO.md` §1 y `ESTADO.md` quedan actualizados en este mismo commit. Los pendientes «definir el rol de Antigravity» y «definir si Jules sigue activo» se cierran; queda abierto definir un encargo operativo concreto para Jules cuando Jehudy decida retomarlo.
