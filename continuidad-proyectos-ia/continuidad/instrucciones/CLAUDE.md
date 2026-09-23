@@ -1,11 +1,11 @@
 ---
 name: continuidad-proyectos
-description: Retomar, registrar o cerrar proyectos de Jehudy/Clicshop usando el repositorio GitHub continuidad-proyectos-ia; usar al retomar un proyecto P-XXX, recibir un ENCARGO de ChatGPT o cerrar una sesión de trabajo.
+description: Retomar, registrar o cerrar proyectos de Jehudy/Clicshop usando el repositorio GitHub CLICSHOP-AI-OPERATING-SYSTEM-v1; usar al retomar un proyecto P-XXX, recibir un ENCARGO de ChatGPT o cerrar una sesión de trabajo.
 ---
 
 # Continuidad de proyectos (Claude = ejecutor y único escritor)
 
-Repositorio: `JehudyCoreaQuesada/continuidad-proyectos-ia` (privado, rama `main`). Se accede con las herramientas MCP de GitHub (`get_file_contents`, `push_files`).
+Repositorio: `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1` (privado, rama `main`). Se accede con las herramientas MCP de GitHub (`get_file_contents`, `push_files`).
 Reglas completas: `PROTOCOLO.md`. Si esta skill y el protocolo no coinciden, prevalece el protocolo.
 
 ## Al iniciar o retomar

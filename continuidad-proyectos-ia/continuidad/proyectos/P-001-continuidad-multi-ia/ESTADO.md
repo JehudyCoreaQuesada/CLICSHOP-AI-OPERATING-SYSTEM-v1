@@ -17,7 +17,7 @@ Que Jehudy, ChatGPT y Claude trabajen sobre el mismo contexto de proyecto sin qu
 
 ## Situación actual
 - Protocolo, plantillas, índice e instrucciones redactados. **Implementado.**
-- Repositorio privado en GitHub. **Pendiente:** la integración de Claude no tiene permiso para crear repositorios (error 403). Jehudy lo crea y Claude sube el contenido.
+- Repositorio privado en GitHub (`JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`) creado y conectado. **Verificado.**
 - Instrucciones para el proyecto de ChatGPT. **Implementado.** Falta que Jehudy las pegue.
 - Skill de continuidad para Claude. **Propuesto.** Falta que Jehudy la guarde.
 - Lectura del repositorio desde ChatGPT. **Sin verificar.**
@@ -25,18 +25,19 @@ Que Jehudy, ChatGPT y Claude trabajen sobre el mismo contexto de proyecto sin qu
 ## Decisiones vigentes
 - D-001: GitHub privado como fuente única de verdad, con Claude como único escritor.
 - D-002: Puerta de revisión obligatoria para los encargos que vienen de ChatGPT.
+- D-003: Repositorio nombrado `CLICSHOP-AI-OPERATING-SYSTEM-v1` como contenedor de la continuidad del SO de IA de Clicshop.
 
 ## Pendientes
-- [ ] Crear en GitHub el repositorio privado vacío `continuidad-proyectos-ia` y darle acceso a la app de Claude — Jehudy
-- [ ] Subir el contenido y verificar lectura y escritura — Claude
+- [x] Crear en GitHub el repositorio privado `CLICSHOP-AI-OPERATING-SYSTEM-v1` y conectar acceso a Claude — Jehudy / Claude
+- [x] Subir contenido inicial y verificar lectura y escritura — Claude
 - [ ] Crear un proyecto en ChatGPT y pegar `instrucciones/CHATGPT.md` — Jehudy
-- [ ] Conectar GitHub en ChatGPT y autorizar este repositorio — Jehudy
+- [ ] Conectar GitHub en ChatGPT y autorizar el repositorio `CLICSHOP-AI-OPERATING-SYSTEM-v1` — Jehudy
 - [ ] Guardar la skill «continuidad-proyectos» en Claude — Jehudy
 - [ ] Prueba: preguntarle a ChatGPT «¿cuál es la siguiente acción de P-001?» — Jehudy
 - [ ] Confirmar qué candidatos del índice siguen activos — Jehudy
 
 ## Bloqueos
-- Sin repositorio no hay escritura. Solución: Jehudy crea el repositorio vacío (1 min). Responsable: Jehudy.
+- Ninguno por parte del repositorio. Siguiente paso depende de la configuración en ChatGPT.
 
 ## Riesgos
 - **El conector de GitHub no está disponible en el chat del plan de ChatGPT.** Mitigación: usar el RELEVO pegado. El protocolo funciona igual.
@@ -44,8 +45,8 @@ Que Jehudy, ChatGPT y Claude trabajen sobre el mismo contexto de proyecto sin qu
 - **El protocolo se abandona porque cuesta mantenerlo.** Mitigación: Claude hace toda la escritura y a Jehudy solo le toca pegar bloques.
 
 ## Siguiente acción
-**Quién:** Jehudy · **Qué:** crear el repositorio y avisar a Claude. Luego, configurar ChatGPT (15 min).
+**Quién:** Jehudy · **Qué:** Configurar el proyecto en ChatGPT pegando `instrucciones/CHATGPT.md` y conectando el repositorio `CLICSHOP-AI-OPERATING-SYSTEM-v1`.
 
 ## Entregables y enlaces
-- Repositorio: github.com/JehudyCoreaQuesada/continuidad-proyectos-ia (privado)
+- Repositorio: github.com/JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1 (privado)
 - Instrucciones de ChatGPT: `instrucciones/CHATGPT.md`

@@ -24,3 +24,11 @@ Solo se agregan entradas. Una decisión no se borra: se marca como reemplazada.
 - **Decisión:** Claude dictamina APTO, APTO CON SUPUESTOS o BLOQUEADO antes de ejecutar cada encargo (PROTOCOLO §4).
 - **Alternativas descartadas:** ejecutar directamente, porque obliga a rehacer trabajo cuando el encargo es ambiguo.
 - **Consecuencias:** suma un paso breve a cada encargo y reduce el retrabajo.
+
+## D-003 · Repositorio `CLICSHOP-AI-OPERATING-SYSTEM-v1`
+- **Fecha:** 2026-09-22
+- **Estado:** Vigente
+- **Decidió:** Jehudy
+- **Contexto:** el repositorio principal creado y conectado en GitHub para el sistema operativo de IA de Clicshop es `CLICSHOP-AI-OPERATING-SYSTEM-v1`.
+- **Decisión:** utilizar `CLICSHOP-AI-OPERATING-SYSTEM-v1` como el repositorio de GitHub donde reside el sistema de continuidad y el código/documentación asociada.
+- **Consecuencias:** se actualizan todas las referencias al repositorio en las instrucciones de ChatGPT, Claude y documentación de continuidad.
