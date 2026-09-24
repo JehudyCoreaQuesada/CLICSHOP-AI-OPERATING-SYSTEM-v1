@@ -1,0 +1,34 @@
+REFERENCIA CREATIVA — CLICSHOP COSTA RICA
+Proyecto: CLICSHOP AI OPERATING SYSTEM v1. Alcance: tienda pública de comercio electrónico.
+
+Usa esta dirección como referencia para las próximas propuestas. Por ahora, registra y resume el criterio creativo; no generes ni publiques campañas, no cambies contactos ni inventes datos comerciales. Conserva la misión, el logo, los valores y el eslogan existentes.
+
+IDENTIDAD
+Nombre: Clicshop Costa Rica. Logo oficial: Clicshopcr; conservar sus proporciones y colores. Eslogan exacto: ¡Todo al alcance de un Clic!
+Colores: naranja #EE601E, azul #1A47B1, blanco #FFFFFF, fondo #F8F9FB, texto #333333, azul secundario #4F77B5, bordes #D1D8E0 y hover #FF8A3D. La paleta de cinco colores ya configurada puede mantenerse; los complementarios están en el resumen. Títulos Poppins y cuerpo Open Sans son una propuesta para la maqueta, pendiente de aprobación, dentro de las alternativas del libro.
+Voz: amigable y directa, transparente y confiable. Valores: Confianza, Claridad, Eficiencia y Accesibilidad.
+
+REFERENCIAS Y ADAPTACIÓN
+El propietario compartió cinco capturas de Unimart. Esta es su síntesis textual; las imágenes no se han adjuntado a este chat. Tomar como inspiración la búsqueda amplia, navegación por categorías, portada comercial, categorías visuales, tarjetas de producto uniformes, un bloque promocional grande acompañado por dos pequeños y un pie con ayuda y políticas. Crear composiciones originales para Clicshop. No reproducir el logo, la mascota, los textos, las fotografías ni las campañas de Unimart; no adoptar su amarillo, cian y rojo.
+
+DIRECCIÓN VISUAL
+Catálogo ordenado, fotografía protagonista, fondos claros y espacio entre secciones. Azul para jerarquía e identidad; naranja para acciones y acentos. Bordes suaves y sombras discretas. Una acción principal por bloque. Evitar saturación de promociones, texto diminuto y elementos flotantes que tapen contenido. Asegurar contraste: no usar automáticamente texto blanco pequeño sobre naranja; considerar negro funcional sobre naranja o blanco sobre azul.
+
+INICIO PROPUESTO
+1. Cabecera con logo, buscador «¿Qué estás buscando?», cuenta y carrito; categorías debajo.
+2. Portada con el eslogan «¡Todo al alcance de un Clic!», apoyo «Explorá nuestro catálogo» y botón «Ver productos».
+3. Seis a ocho categorías del catálogo confirmado.
+4. Productos destacados con fotografías uniformes, nombre legible, precio en colones y disponibilidad real.
+5. Una colección grande y dos menores con un titular breve y una acción cada una.
+6. Novedades u ofertas, solo con inventario y promociones confirmados.
+7. Información real de envíos, devoluciones y contacto; opiniones solo cuando existan.
+8. Suscripción opcional y pie con ayuda, políticas, contacto y redes verificadas.
+
+PRODUCTO Y MÓVIL
+Tarjetas con imagen 1:1, nombre de hasta dos líneas, precio destacado y «Agregar al carrito» o «Ver opciones». Preparar estados de carga, agotado, error y agregado. No usar escasez, contadores, descuentos, calificaciones ni sellos ficticios. En ejemplos, identificar «Producto de ejemplo» y «Precio por confirmar».
+Para móvil: menú, logo y carrito arriba; buscador en una fila completa; portada recompuesta; dos columnas de productos solo si son legibles; promociones apiladas y sin desplazamiento horizontal accidental. Controles amplios y foco visible. No depender de carruseles automáticos.
+
+RESULTADO ESPERADO EN UNA FUTURA PROPUESTA
+Si la herramienta lo permite: inicio de escritorio y móvil, tarjeta de producto, portada y tres bloques de colecciones, más una guía breve de estilos. Si no lo permite, declarar el límite y preparar dirección creativa y piezas compatibles. No presentar imágenes como una tienda funcional ni afirmar sincronización con Shopify. Mantener explícitos los pendientes de catálogo, fotos, precios, políticas y tipografía.
+
+Para reflejar esta dirección ahora, actualiza solamente los cuatro descriptores de estética de marca a: «Comercio claro en naranja y azul», «Fotografía de producto sobre fondos claros», «Catálogo modular con espacio y jerarquía» y «Diseño legible pensado para móvil». Conserva los demás campos del ADN de marca. No inicies generación de piezas en este paso.
