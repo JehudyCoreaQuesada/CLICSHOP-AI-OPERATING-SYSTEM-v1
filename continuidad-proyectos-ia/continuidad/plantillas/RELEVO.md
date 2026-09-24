@@ -5,7 +5,7 @@ Si una IA cambia, se lleva este bloque y nada más.
 
 ```
 === RELEVO ===
-De: Claude | ChatGPT | Codex | Jules → Para: ChatGPT | Claude | Codex | Jules
+De: Claude | ChatGPT | Codex | Jules | OpenCode → Para: ChatGPT | Claude | Codex | Jules | OpenCode
 Proyecto: P-XXX · Nombre · Fase
 Fecha: AAAA-MM-DD
 Repositorio: github.com/JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1
