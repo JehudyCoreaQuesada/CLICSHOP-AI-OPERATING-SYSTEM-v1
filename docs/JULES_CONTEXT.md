@@ -1,5 +1,9 @@
 # Contexto de desarrollo de Clicshop para Jules
 
+Estado vigente: **en pausa por D-005**. No ejecutar ni continuar encargos remotos
+hasta una nueva autorización de Jehudy. El PR #1 ya fue fusionado en `c77bac4`;
+las referencias a su preparación más abajo describen el origen de la integración.
+
 Trabajas en JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1.
 Responde y documenta en español. Lee README.md, el protocolo de continuidad,
 el estado y las decisiones relevantes antes de actuar. No presupongas que existe
