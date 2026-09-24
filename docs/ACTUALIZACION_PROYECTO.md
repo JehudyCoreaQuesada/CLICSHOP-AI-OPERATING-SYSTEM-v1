@@ -19,6 +19,7 @@ realizado, y actualizar el repositorio con el contexto de los relevos recibidos.
 
 - [Diseño, prompts y recursos de marca](diseno/README.md).
 - [Incorporación de Lovable: contexto guardado y acceso pendiente](lovable/README.md).
+- [Entorno n8n verificado el 2026-09-24](n8n/README.md).
 - [Revisión crítica de OpenCode, Antigravity y Omnisend](revisiones/REVISION_PR3.md).
 - [Primera campaña: prioridad y borrador](marketing/PRIMERA_CAMPANA_OMNISEND.md).
 - [Relevos originales recibidos de Claude](relevos/RELEVOS_CLAUDE_RECIBIDOS.md).
