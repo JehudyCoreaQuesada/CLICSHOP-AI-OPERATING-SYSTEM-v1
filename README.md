@@ -1,6 +1,20 @@
 # CLICSHOP-AI-OPERATING-SYSTEM-v1
 Desarrollo Clicshop con Agentes de AI
 
+## Reglas para agentes de código
+
+[`AGENTS.md`](AGENTS.md) resume roles, flujo de ramas y prohibiciones. Lo leen
+automáticamente OpenCode, Codex y Jules. Prevalecen el protocolo y las decisiones.
+
+## Desarrollo con OpenCode
+
+OpenCode trabaja en el equipo de Jehudy con modelos Claude vía API (D-006).
+
+- Configuración del proyecto: [`opencode.json`](opencode.json) (carga el protocolo y el índice; permisos conservadores).
+- Abre OpenCode dentro de `C:\dev\CLICSHOP-AI-OPERATING-SYSTEM-v1` para que tome `AGENTS.md` y `opencode.json`.
+- La llave API se conecta desde OpenCode y queda en su almacén local, nunca en el repositorio.
+- Trabaja en ramas `opencode/<tema>` y entrega por PR + RELEVO.
+
 ## Desarrollo con Google Jules
 
 Jules se integra mediante su API para recibir encargos técnicos sobre este

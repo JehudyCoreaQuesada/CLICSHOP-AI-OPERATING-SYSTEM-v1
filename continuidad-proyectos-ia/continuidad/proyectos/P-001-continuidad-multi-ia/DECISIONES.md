@@ -53,3 +53,16 @@ Solo se agregan entradas. Una decisión no se borra: se marca como reemplazada.
   3. El repositorio `CLICSHOP-AI-OPERATING-SYSTEM-v1` se mantiene como el nombre del proyecto/contenedor general; P-001 conserva su propio nombre, «Sistema de continuidad multi-IA», como submódulo de gobernanza. No se requiere ningún cambio de nomenclatura.
 - **Alternativas descartadas:** aceptar la autodescripción de rol que propuso Antigravity sin confirmación explícita de Jehudy — mismo riesgo de gobernanza señalado en D-003.
 - **Consecuencias:** `PROTOCOLO.md` §1 y `ESTADO.md` quedan actualizados en este mismo commit. Los pendientes «definir el rol de Antigravity» y «definir si Jules sigue activo» se cierran; queda abierto definir un encargo operativo concreto para Jules cuando Jehudy decida retomarlo.
+
+## D-006 · Incorporar OpenCode como ejecutor de código local vía `AGENTS.md`
+- **Fecha:** 2026-09-23
+- **Estado:** Propuesta en PR (rama `claude/opencode-conexion`). Pasa a **Vigente** cuando Jehudy fusione el PR; la fusión es su aprobación.
+- **Solicitud recibida:** Jehudy pidió «armar el AGENTS.md y crear la conexión» con OpenCode.
+- **Contexto:** OpenCode usa modelos Claude pagando la API de Anthropic por uso; la suscripción de Claude no cubre herramientas de terceros. OpenCode no comparte memoria, conectores ni conversaciones con la app de Claude, así que la continuidad se logra a través de este repositorio.
+- **Decisión propuesta (redactada por Claude, no autoasignada por OpenCode):**
+  1. `AGENTS.md` en la raíz resume las reglas del protocolo; lo leen OpenCode, Codex y Jules. Prevalecen `PROTOCOLO.md` y `DECISIONES.md`.
+  2. `opencode.json` carga `PROTOCOLO.md` e `INDICE.md` en cada sesión y fija permisos conservadores: ediciones y comandos requieren confirmación; se bloquean push a `main`, `--force`, `reset --hard`, `merge` y `rm -rf`.
+  3. OpenCode trabaja solo en ramas `opencode/*`, entrega por PR y RELEVO, y no escribe en `continuidad-proyectos-ia/continuidad/`. D-001 se conserva: Claude sigue siendo el único escritor de la continuidad.
+- **Alternativas descartadas:** usar la suscripción de Claude dentro de OpenCode (no permitido por Anthropic para herramientas de terceros); dar a OpenCode escritura directa en `main` (rompe D-001 y el control de versiones).
+- **Limitación conocida:** la restricción de no editar la carpeta de continuidad es de instrucción (AGENTS.md) y de confirmación manual (`edit: ask`), no un bloqueo técnico por ruta.
+- **Consecuencias:** PROTOCOLO pasa a v1.1. Pendiente de Jehudy: crear la llave API con límite de gasto, conectar OpenCode, fusionar el PR y hacer la prueba de humo.

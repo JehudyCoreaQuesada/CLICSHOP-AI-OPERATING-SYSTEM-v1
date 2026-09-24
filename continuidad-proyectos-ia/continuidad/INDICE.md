@@ -4,7 +4,7 @@
 
 | ID | Proyecto | Fase | Siguiente acción | Actualizado |
 |---|---|---|---|---|
-| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Ejecución | Jehudy: repegar instrucciones/CHATGPT.md corregido, guardar la skill de continuidad y confirmar los candidatos del índice | 2026-09-23 |
+| P-001 | [Sistema de continuidad multi-IA](proyectos/P-001-continuidad-multi-ia/ESTADO.md) | Ejecución | Jehudy: conectar la llave API en OpenCode, prueba de humo y fusionar el PR de D-006 | 2026-09-23 |
 
 ## Candidatos a registrar (estado por confirmar con Jehudy)
 
