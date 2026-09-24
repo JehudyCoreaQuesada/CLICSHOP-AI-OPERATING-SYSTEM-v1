@@ -5,6 +5,7 @@ Desarrollo Clicshop con Agentes de AI
 
 - [Actualización del proyecto y revisión de relevos](docs/ACTUALIZACION_PROYECTO.md).
 - [Diseño: libro de marca, prompts y referencias](docs/diseno/README.md).
+- [Lovable: contexto del equipo y conexión pendiente a GitHub](docs/lovable/README.md).
 - [Revisión del PR #3: OpenCode, Antigravity y Omnisend](docs/revisiones/REVISION_PR3.md).
 - [Propuesta de primera campaña de Omnisend](docs/marketing/PRIMERA_CAMPANA_OMNISEND.md).
 

@@ -18,6 +18,7 @@ realizado, y actualizar el repositorio con el contexto de los relevos recibidos.
 ## Entregables
 
 - [Diseño, prompts y recursos de marca](diseno/README.md).
+- [Incorporación de Lovable: contexto guardado y acceso pendiente](lovable/README.md).
 - [Revisión crítica de OpenCode, Antigravity y Omnisend](revisiones/REVISION_PR3.md).
 - [Primera campaña: prioridad y borrador](marketing/PRIMERA_CAMPANA_OMNISEND.md).
 - [Relevos originales recibidos de Claude](relevos/RELEVOS_CLAUDE_RECIBIDOS.md).
