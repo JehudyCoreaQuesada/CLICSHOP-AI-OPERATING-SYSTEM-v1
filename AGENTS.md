@@ -1,6 +1,7 @@
 # AGENTS.md — Reglas para agentes de código en este repositorio
 
-OpenCode, Codex y Jules leen este archivo automáticamente al abrir el repositorio.
+OpenCode, Antigravity, Codex y Jules leen este archivo automáticamente al abrir el repositorio.
+Antigravity además carga `.agents/rules/clicshop-antigravity.md`.
 Es un resumen operativo. **Si algo aquí contradice `PROTOCOLO.md` o `DECISIONES.md`, prevalecen ellos.**
 
 Idioma de trabajo: español (respuestas, documentación, commits).
@@ -34,7 +35,7 @@ Si detectas una contradicción, no la resuelvas por tu cuenta: señálala.
 | ChatGPT | Coordinación, estrategia, requisitos, revisión crítica. | Solo lectura |
 | Claude (app / Cowork) | Ejecutor principal y **único escritor** de `continuidad-proyectos-ia/continuidad/` (D-001). | Sí |
 | OpenCode | Ejecución de código local en el equipo de Jehudy, con modelos Claude vía API (D-006). | Solo ramas `opencode/*`; nunca la carpeta de continuidad |
-| Antigravity | Ejecución local: comandos, pruebas, ramas, sincronización (D-005). | Sin escritura en la carpeta de continuidad |
+| Antigravity | Ejecución local: comandos, pruebas, verificación de ramas, sincronización (D-005). | Sin escritura en la carpeta de continuidad; cambios de código solo por encargo, en `antigravity/*` |
 | Codex | Propuestas puntuales por PR, revisadas por Claude (D-003). | Solo por PR autorizado |
 | Jules | **En pausa** (D-005). No ejecutar encargos. | — |
 
@@ -52,7 +53,7 @@ Ningún agente se asigna alcance propio. Los cambios de rol los decide Jehudy.
 
 ## 5. Cómo trabajar
 
-- Trabaja en una rama propia: `opencode/<tema>`, `codex/<tema>`, etc. **Nunca** hagas commit ni push directo a `main`.
+- Trabaja en una rama propia: `opencode/<tema>`, `antigravity/<tema>`, `codex/<tema>`, etc. **Nunca** hagas commit ni push directo a `main`.
 - Commits: `[P-XXX] qué cambió`.
 - No modifiques `continuidad-proyectos-ia/continuidad/` (salvo Claude). Si hace falta un cambio allí, escríbelo en tu RELEVO y Claude lo archiva.
 - Cambios pequeños y enfocados en el encargo. No reescribas archivos completos a partir de versiones anteriores.
@@ -69,7 +70,7 @@ Ningún agente se asigna alcance propio. Los cambios de rol los decide Jehudy.
 ## 7. Datos sensibles (nunca en el repositorio)
 
 Contraseñas, tokens, llaves API, números de tarjeta o cuenta, ni datos personales de clientes (Ley N.° 8968).
-Anota dónde están («ver gestor de contraseñas»). Las llaves de OpenCode se guardan en su propio almacén local, fuera del repo.
+Anota dónde están («ver gestor de contraseñas»). Las llaves de cada herramienta se guardan en su propio almacén local, fuera del repo.
 
 ## 8. Entorno técnico
 
