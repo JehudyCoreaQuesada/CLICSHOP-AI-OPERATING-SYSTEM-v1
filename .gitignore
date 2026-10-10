@@ -3,3 +3,4 @@
 !.env.example
 *.dpapi
 api-key.xml
+.tmp.driveupload/

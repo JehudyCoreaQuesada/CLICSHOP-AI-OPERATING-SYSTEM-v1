@@ -3,6 +3,14 @@
 Integración local para Windows y PowerShell 7, sin dependencias adicionales.
 Repositorio: `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`.
 
+## Estado vigente
+
+El PR #1 fue fusionado en `c77bac4`. Jules está **en pausa** por D-005,
+confirmada en `main` mediante `a004159`. La guía siguiente conserva las capacidades
+técnicas del cliente; no autoriza iniciar, aprobar ni continuar encargos remotos.
+La pausa requiere una nueva instrucción de Jehudy para levantarse. Las pruebas
+sin red pueden ejecutarse sin activar Jules.
+
 ## Credencial
 
 Desde la raíz del proyecto, ejecutar `./scripts/jules.ps1 -Action Connect` y pegar

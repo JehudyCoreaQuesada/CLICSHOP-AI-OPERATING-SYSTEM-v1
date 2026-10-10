@@ -1,5 +1,10 @@
 # Relevo de Codex a Claude — P-001
 
+**Registro histórico del PR #1.** La fusión ya ocurrió (`c77bac4`), Claude registró
+la prueba de escritura de contenido en `1f5d93f` y Jules está en pausa por D-005.
+Los pendientes de este documento describen el momento original, no el estado
+actual. Consultar el [relevo actualizado](relevos/RELEVO_ACTUALIZACION.md).
+
 Fecha: 2026-09-23. Repositorio: `JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1`.
 Rama publicada: `codex/jules-claude-continuidad`.
 Propuesta de revisión: [PR #1](https://github.com/JehudyCoreaQuesada/CLICSHOP-AI-OPERATING-SYSTEM-v1/pull/1).
@@ -7,7 +12,7 @@ Commit de implementación y correcciones: `d10a6bd69b0ab6f1c3eaf09ae26d1720cdda1
 
 ## Contenido que debes leer antes de escribir
 
-- [Protocolo y adenda de Jules](../continuidad-proyectos-ia/continuidad/PROTOCOLO.md).
+- [Protocolo de coordinación](../continuidad-proyectos-ia/continuidad/PROTOCOLO.md).
 - [Decisiones vigentes, incluyendo D-003 y D-004](../continuidad-proyectos-ia/continuidad/proyectos/P-001-continuidad-multi-ia/DECISIONES.md).
 - [Instrucciones de Jules](../continuidad-proyectos-ia/continuidad/instrucciones/JULES.md).
 - [Guía del cliente y pruebas verificadas](JULES.md).
