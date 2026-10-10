@@ -1,6 +1,6 @@
 # Protocolo de coordinación multi-IA
 
-Versión 1.0 · Vigente desde 2026-09-22 · Aprobado por: Jehudy
+Versión 1.1 · Vigente desde 2026-09-22 · Aprobado por: Jehudy
 
 ## 1. Roles
 
@@ -10,6 +10,7 @@ Versión 1.0 · Vigente desde 2026-09-22 · Aprobado por: Jehudy
 | **ChatGPT** | Coordinación, estrategia, requisitos, prioridades y revisión crítica. | Lectura (conector GitHub) |
 | **Claude** | Ejecución técnica: implementación, pruebas, depuración, documentación. Único escritor de este repositorio. | Lectura y escritura |
 | **Antigravity** | Ejecución local en el equipo de Jehudy: corre comandos (Warp/PowerShell), pruebas, verificación de ramas y sincronización del repositorio de trabajo. Rol confirmado por Jehudy el 2026-09-23. | Sin acceso de escritura a la carpeta de continuidad |
+| **OpenCode** | Ejecución de código local en el equipo de Jehudy con modelos Claude vía API: implementación, pruebas y depuración sobre encargos concretos. Reglas en `AGENTS.md` (raíz). Rol según D-006. | Solo ramas `opencode/*`, entregadas por PR; sin escritura en la carpeta de continuidad ni en `main` |
 | **Otras IA** | Especialidad asignada caso por caso. | Según se defina |
 
 **Escritor único.** Solo Claude escribe aquí. Así se evitan versiones en conflicto. Lo que decida ChatGPT entra como `ENCARGO` o `RELEVO` pegado por Jehudy, y Claude lo archiva.
@@ -29,6 +30,8 @@ Claude:  revisa el encargo (puerta de revisión)  →  ejecuta  →  verifica
 Claude:  actualiza ESTADO + DECISIONES + INDICE  →  commit  →  entrega RELEVO
 Jehudy:  lleva el RELEVO a ChatGPT (o ChatGPT lee el repo)  →  ChatGPT revisa críticamente
 ```
+
+Variante con OpenCode: Jehudy entrega el ENCARGO a OpenCode → OpenCode aplica la puerta de revisión, trabaja en `opencode/<tema>`, abre PR y entrega RELEVO → Claude revisa el PR y archiva ESTADO/DECISIONES → Jehudy decide la fusión.
 
 ## 4. Puerta de revisión de encargos (obligatoria)
 
@@ -67,7 +70,10 @@ La revisión se archiva en `encargos/` junto al encargo.
 - Decisiones: `D-001`… (numeración por proyecto)
 - Encargos: `encargos/E-001-AAAA-MM-DD.md`
 - Commits: `[P-001] qué cambió`
+- Ramas de agentes: `opencode/<tema>`, `codex/<tema>`, `claude/<tema>`
 
 ## 8. Cambios a este protocolo
 
 Cualquier IA puede proponer cambios. Jehudy los aprueba. Claude los aplica y sube la versión.
+
+**Historial:** 1.0 (2026-09-22) inicial · 1.1 (2026-09-23) se agrega OpenCode (D-006) y la convención de ramas por agente.

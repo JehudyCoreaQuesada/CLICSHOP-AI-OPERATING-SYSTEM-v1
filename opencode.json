@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "continuidad-proyectos-ia/continuidad/PROTOCOLO.md",
+    "continuidad-proyectos-ia/continuidad/INDICE.md"
+  ],
+  "permission": {
+    "edit": "ask",
+    "webfetch": "ask",
+    "bash": {
+      "*": "ask",
+      "git status*": "allow",
+      "git diff*": "allow",
+      "git log*": "allow",
+      "git branch*": "allow",
+      "git fetch*": "allow",
+      "git push*main*": "deny",
+      "git push --force*": "deny",
+      "git push -f*": "deny",
+      "git reset --hard*": "deny",
+      "git merge*": "deny",
+      "rm -rf*": "deny"
+    }
+  }
+}
